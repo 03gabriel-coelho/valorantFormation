@@ -6,6 +6,7 @@ import Agents from './Pages/Agents';
 import Maps from './Pages/Maps';
 import Sprays from './Pages/Sprays';
 import Titles from './Pages/Titles';
+import './App.css';
 
 function App() {
   return (
