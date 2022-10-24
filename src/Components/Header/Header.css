@@ -1,0 +1,100 @@
+.headerButton {
+  text-decoration: none;
+  color: #F6F1F1;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  transition: font-size 1s;
+}
+
+.headerButton:hover,
+.headerButton:focus {
+  font-size: 14px;
+}
+
+#header {
+  width: 100%;
+  height: 42px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 0.0001px solid #E3E8F1;
+}
+
+#headerInit {
+  display: flex;
+  font-size: 17px;
+  color: black;
+  width: 145px;
+  height: 100%;
+  background-color: #E3E8F1;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: color 0.5s;
+  transition: background-color 0.5s;
+}
+
+#divHeaderInit {
+  height: 100%;
+  display: flex;
+}
+
+#poligonOne {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid#E3E8F1;
+  transform: rotate(45deg);
+  position: relative;
+  top: -5px;
+  left: 20px;
+  transition: border-bottom 0.5s;
+}
+
+#poligonTwo {
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid#E3E8F1;
+  transform: rotate(-45deg);
+  position: relative;
+  top: -5px;
+  right: 20px;
+  transition: border-bottom 0.5s;
+}
+
+#lineOne {
+  width: 60.53px;
+  height: 2px;
+  background-color:#E3E8F1;
+  transform: rotate(45deg);
+  position: relative;
+  top: 20px;
+  left: 66px;
+}
+
+#lineTwo {
+  width: 60.53px;
+  height: 2px;
+  background-color:#E3E8F1;
+  transform: rotate(-45deg);
+  position: relative;
+  top: 20px;
+  right: 66.3px;
+}
+
+.headerLeftButtons {
+  position: relative;
+  left: 70px;
+}
+
+.headerRigthButtons {
+  position: relative;
+  right: 63px;
+}
+
+/* .One:hover ~ .headerButton {
+  color: aqua;
+} */
